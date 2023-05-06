@@ -1,6 +1,5 @@
-LABEL authors="Christian Gonzalez"
 # Imagen base de Python
-FROM python:3.9-slim
+FROM python:3.10-slim
 # Directorio de trabajo en el contenedor
 WORKDIR /app
 
